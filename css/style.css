@@ -1,0 +1,16 @@
+:root {
+  --yellow_tint: #FEFEF2;
+  --black: #000;
+  --white: #fff;
+}
+
+[class *= "__container"] {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background: var(--yellow_tint);
+  font-family: "Inter", serif;
+}
